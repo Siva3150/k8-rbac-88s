@@ -32,6 +32,10 @@ data:
       - roboshop-trainee 
       userarn: arn:aws:iam::445567085619:user/suresh
       username: suresh 
+    - groups: 
+      - roboshop-admin  
+      userarn: arn:aws:iam::445567085619:user/ramesh
+      username: ramesh 
 kind: ConfigMap
 metadata:
   creationTimestamp: "2026-07-21T13:47:47Z"
